@@ -1,0 +1,21 @@
+.distance-container {
+  background-color: white;
+  padding: 1rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+
+.distance-container p {
+  text-align: left;
+}
+
+.distance-container h3 {
+  font-family: "Rubik", sans-serif;
+  color:#0079FF;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.distance-text {
+  font-family: "Work Sans", sans-serif;
+}

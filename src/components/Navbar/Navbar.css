@@ -1,0 +1,13 @@
+nav{
+    height:10vh;
+    width:100%;
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+}
+
+.navbar img{
+    text-align:left;
+}
