@@ -1,21 +1,36 @@
+.distance-details {
+  border: 0.1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+}
+
 .distance-container {
   background-color: white;
   padding: 1rem;
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
 }
 
-.distance-container p {
+.distance-container p,
+.distance-text p {
   text-align: left;
 }
 
 .distance-container h3 {
   font-family: "Rubik", sans-serif;
-  color:#0079FF;
+  color: #0079ff;
   font-size: 32px;
   line-height: 120%;
 }
 
 .distance-text {
   font-family: "Work Sans", sans-serif;
+}
+
+.distance-text p {
+  padding: 2rem;
 }

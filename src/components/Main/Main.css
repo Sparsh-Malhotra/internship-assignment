@@ -16,6 +16,9 @@ input {
   color: #4d6475;
   padding: 0.5rem;
   margin-bottom: 4rem;
+  padding-left: 1.5rem;
+  border: 1px solid #e9eef2;
+  border-radius: 4px;
 }
 
 .heading {
@@ -49,17 +52,44 @@ button {
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  background-color: #1B31A8;
-  color:white;
+  background-color: #1b31a8;
+  color: white;
   cursor: pointer;
-  border-radius:32px;
-  padding:0.8rem 1rem 0.8rem 1rem;
+  border-radius: 32px;
+  padding: 1rem 0.8rem 1rem 0.8rem;
   position: relative;
-  bottom:1.5rem;
-  margin-left:5rem;
-  width:10rem;
+  bottom: 1.5rem;
+  margin-left: 5rem;
+  width: 10rem;
 }
 
-.map{
-    flex:0.5;
+.input-container {
+  position: relative;
+}
+
+.icon1 {
+  position: absolute;
+  top: 1.45rem;
+  width: 24px;
+  height: 27px;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 99, 110);
+}
+
+.icon2 {
+  position: absolute;
+  top: 9.4rem;
+  width: 24px;
+  height: 27px;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 99, 110);
+}
+
+.map {
+  flex: 0.5;
+  -webkit-box-shadow: -11px 11px 12px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 11px 12px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: -11px 11px 12px -14px rgba(0, 0, 0, 0.75);
 }
